@@ -7,11 +7,6 @@ import org.junit.Test;
 import utils.ComplexNumber;
 import static utils.ComplexNumber.*;
 
-import org.junit.runner.JUnitCore;
-import org.junit.runner.Result;
-import org.junit.runner.notification.Failure;
-
-
 public class FFTTest {
 
     private static final float EPSILON = 1e-3f;

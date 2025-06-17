@@ -85,9 +85,7 @@ public class FFT {
 
     private static ComplexNumber[] truncate(ComplexNumber[] signal, int length) {
         ComplexNumber[] res = new ComplexNumber[length];
-        for (int i = 0; i < length; i++) {
-            res[i] = signal[i];
-        }
+        System.arraycopy(signal, 0, res, 0, length);
         return res;
     }
 

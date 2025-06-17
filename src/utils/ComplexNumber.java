@@ -63,4 +63,8 @@ public class ComplexNumber {
     public String toString() {
         return String.format("%.4f + %.4fi", real, imaginary);
     }
+
+    public ComplexNumber copy() {
+        return new ComplexNumber(real, imaginary);
+    }
 }

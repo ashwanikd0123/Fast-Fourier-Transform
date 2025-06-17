@@ -38,9 +38,9 @@ public class FFTTest {
     public void testFFTAndIFFTRoundTrip() {
         ComplexNumber[] signal = {
                 new ComplexNumber(1.0f, 0.0f),
-                new ComplexNumber(2.0f, 0.0f),
+                new ComplexNumber(2.0f, 1.0f),
                 new ComplexNumber(3.0f, 0.0f),
-                new ComplexNumber(4.0f, 0.0f)
+                new ComplexNumber(4.0f, 1.0f),
         };
 
         ComplexNumber[] freqDomain = FFT.fft(signal);
